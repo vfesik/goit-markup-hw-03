@@ -1,0 +1,291 @@
+:root {
+  --main-title-color: #2e2f42;
+  --btn-color: #4d5ae5;
+  --main-text-color: #434455;
+  --main-background-color: #ffffff;
+  --secondary-background-color: #f4f4fd;
+  --color-hover-focus: #404bbf;
+}
+body {
+  font-family: "Roboto", "sans-serif";
+  color: #434455;
+  background-color: var(--main-background-color);
+}
+/* прибирає крапки зі списків */
+.list {
+  list-style: none;
+}
+/* прибирає підкреслення з елементів */
+.link {
+  text-decoration: none;
+}
+/* прибираємо заголовок */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+/* дає колір активній сторінці
+.selected {
+  color: var(--btn-color);
+} */
+
+/* --------------------------------------Header------------------------------------- */
+
+/* .header {
+} */
+/* .header-navigation {
+} */
+.header-logo {
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main-title-color);
+}
+.header-span {
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--btn-color);
+}
+/* .header-list {
+} */
+/* .header-item {
+} */
+
+.header-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-title-color);
+}
+.header-link:hover,
+.header-link:focus {
+  color: var(--color-hover-focus);
+}
+
+/* .header-address {
+} */
+/* .header-address-list {
+} */
+/* .header-address-item {
+} */
+.header-mail {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+.header-mail:hover,
+.header-mail:focus {
+  color: var(--color-hover-focus);
+}
+.header-tel {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+.header-tel:hover,
+.header-tel:focus {
+  color: var(--color-hover-focus);
+}
+
+/* --------------------------------------Section 1 Hero------------------------------------- */
+
+.hero {
+  background-color: var(--main-title-color);
+}
+/* .hero-title {
+} */
+.order-hero-btn {
+  /* inherit для font-family наслідується шрифт з батька body  */
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+
+  color: var(--main-background-color);
+  background-color: var(--btn-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+}
+.order-hero-btn:hover,
+.order-hero-btn:focus {
+  color: var(--main-background-color);
+  background-color: var(--color-hover-focus);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+/* --------------------------------------Section 2 Advantages------------------------------------- */
+/* .section-advantages {
+} */
+.advantages-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--main-title-color);
+}
+/* .advantages-list {
+} */
+/* .advantages-item {
+} */
+.advantages-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+/* --------------------------------------Section 3 WAWD------------------------------------- */
+/* .section-wawd {
+} */
+.wawd-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--main-title-color);
+}
+/* .wawd-item {
+} */
+/* --------------------------------------Section 4 Our Team------------------------------------- */
+.section-team {
+  background-color: var(--secondary-background-color);
+}
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--main-title-color);
+}
+/* .team-item {
+} */
+.team-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--main-title-color);
+}
+.team-profession {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+
+/* --------------------------------------Footer------------------------------------- */
+.footer {
+  background-color: var(--main-title-color);
+}
+.footer-logo {
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--secondary-background-color);
+}
+.footer-span {
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--btn-color);
+}
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #e7e9fc;
+}
+
+/* --------------------------------------Portfolio.html------------------------------------- */
+/* .main {
+} */
+/* .main-title {
+} */
+
+/* --------------------------------------Section1 Filter------------------------------------- */
+
+/* .filter {
+} */
+/* .filter-list {
+} */
+/* .filter-item {
+} */
+.filter-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--btn-color);
+  background-color: var(--secondary-background-color);
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.filter-btn:hover,
+.filter-btn:focus {
+  color: var(--main-background-color);
+  background-color: var(--color-hover-focus);
+}
+
+/* --------------------------------------Section2 Works------------------------------------- */
+
+/* .works {
+} */
+/* .works-list {
+} */
+/* .works-item {
+} */
+.works-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--main-title-color);
+}
+.works-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
