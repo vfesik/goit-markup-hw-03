@@ -70,8 +70,6 @@ body {
   display: flex;
   justify-content: center;
   border-bottom: 1px solid #e7e9fc;
-  padding-right: 156px;
-  padding-left: 156px;
 }
 .header-navigation {
   display: flex;
@@ -229,6 +227,10 @@ body {
 /* --------------------------------------Section 3 WAWD------------------------------------- */
 .section-wawd {
   text-align: center;
+}
+.wawd-items {
+  display: flex;
+  gap: 24px;
 }
 .wawd-title {
   font-weight: 700;
