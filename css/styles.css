@@ -157,13 +157,12 @@ body {
 /* --------------------------------------Section 1 Hero------------------------------------- */
 
 .hero {
-  /* background-color: var(--main-title-color); */
+  background-color: var(--main-title-color);
 }
 
 .hero-container {
   padding-top: 188px;
   padding-bottom: 188px;
-  background-color: var(--main-title-color);
 }
 .hero-title {
   display: block;
@@ -189,6 +188,7 @@ body {
   background-color: var(--btn-color);
   border-radius: 4px;
   cursor: pointer;
+  /* text-align: center; */
   display: block;
   margin-right: auto;
   margin-left: auto;
@@ -250,9 +250,9 @@ body {
 }
 /* --------------------------------------Section 4 Our Team------------------------------------- */
 .section-team {
+  background-color: #f4f4fd;
 }
 .team-container-item {
-  background-color: #f4f4fd;
   /* padding-left: 156px;
   padding-right: 156px; */
 }
@@ -297,6 +297,7 @@ body {
 
 /* --------------------------------------Footer------------------------------------- */
 .footer {
+  background-color: var(--main-title-color);
 }
 .footer-logo {
   font-family: "Raleway";
@@ -308,6 +309,11 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--secondary-background-color);
+}
+.footer-block {
+  /* задаємо дісплей блок, щоб застосувався марджін 16 вниз */
+  display: block;
+  margin-bottom: 16px;
 }
 .footer-span {
   font-family: "Raleway";
@@ -335,7 +341,6 @@ body {
   padding-bottom: 100px;
 }
 .footer-back {
-  background-color: var(--main-title-color);
 }
 
 /* --------------------------------------Portfolio.html------------------------------------- */
