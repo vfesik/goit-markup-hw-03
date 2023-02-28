@@ -227,6 +227,7 @@ body {
 /* --------------------------------------Section 3 WAWD------------------------------------- */
 .section-wawd {
   text-align: center;
+  padding-top: 0px;
 }
 .wawd-items {
   display: flex;
@@ -312,6 +313,8 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--secondary-background-color);
+  /* display: block; */
+  margin-bottom: 16px;
 }
 
 .footer-span {
@@ -344,8 +347,8 @@ body {
 /* --------------------------------------Section1 Filter------------------------------------- */
 
 .filter {
-  padding-left: 156px;
-  padding-right: 156px;
+  /* padding-left: 156px;
+  padding-right: 156px; */
   padding-bottom: 120px;
   padding-top: 96px;
 }
